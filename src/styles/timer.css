@@ -1,0 +1,16 @@
+.timer-component{
+    padding: 0.2rem 0;
+}
+.stopwatch{
+    background-color: yellow;
+    /* display: block; */
+    margin: 0 auto;
+    
+    border: 2px solid rgb(29, 7, 77);
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size:2rem;
+    width: 250px;
+    padding: 0.5rem 0.8rem;
+}

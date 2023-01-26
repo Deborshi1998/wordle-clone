@@ -1,0 +1,52 @@
+.keyboard{
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 550px;
+   
+}
+.middle-row{
+    margin: 0 1rem;
+}
+.words-row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+     padding: 0.2rem 0.5rem;
+    /* justify-content: space-between; */
+}
+
+.word-keys{
+    display: flex;
+    background-color:"#D3D6DA" ;
+    font-size: 1.4rem;
+    font-weight:600;
+    border: 0ch;
+    border-radius: 4px;
+    margin: 0 6px 0 0;
+    /* width: 100%; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+    flex: 1;
+}
+
+@media screen and (max-width:551px) {
+    .keyboard{
+   
+    /* margin: 0 auto; */
+    margin-top: 1rem;
+    width: auto;
+   
+}
+.words-row{
+    padding: 0.2rem 0.2rem;
+}
+.word-keys{
+    font-size: 1rem;
+}
+}

@@ -1,38 +1,78 @@
-.App {
+.body{
+  background-color: "D3D6DA";
+}
+
+.modal{
+  /* position: absolute; */
+   margin: 5rem auto;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: rgb(240, 237, 232);
+  color: black;
+  padding: 0 1rem;
+  font-size: larger;
+  font-weight: 600;
   text-align: center;
+  width: fit-content;
+  
+}
+.modalIntro{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin: 2rem auto;
+  background-color:rgb(236, 230, 223) ;
+  padding: 2rem;
+  width: 20rem;
+  border: 3px solid blueviolet;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button-74 {
+  margin-top: 0.5rem;
+  width: 100px;
+  background-color: #dfb109;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+/* @media screen and (max-width:600px) {
+  .modalIntro{
+    margin: 0;
+  }
+} */
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
+@media screen and (max-width: 401px){
+    .modalIntro{
+      width: 18rem;
+      padding: 2rem 1rem;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    }
 }
