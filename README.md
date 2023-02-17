@@ -11,7 +11,7 @@ To get started with this game, you can either download the source code and run i
 4. Run npm start to start the development server.
 5. Open a browser and navigate to http://localhost:3000/ to play the game.
 ## How to Play
-The rules of the game are simple. The user is presented with a random five-letter word and has six chances to guess the word. After each guess, the user is presented with a list of letters indicating which letters are correct, which letters are incorrect, and which letters are in the wrong position. The user can use this feedback to make an informed guess on their next attempt. The user has a set amount of time to complete the game, adding an additional layer of difficulty.
+The rules of the game are simple. The user is presented with a random five-letter word and has five chances to guess the word. After each guess, the user is presented with a list of letters indicating which letters are correct, which letters are incorrect, and which letters are in the wrong position. The user can use this feedback to make an informed guess on their next attempt. The user has a set amount of time to complete the game, adding an additional layer of difficulty.
 
 ## Technologies Used
 This game was built using React and the following libraries:
