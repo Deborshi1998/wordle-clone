@@ -1,6 +1,6 @@
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/28285868/219785552-1a25cfb2-6581-49e0-8063-ed8bd8d6871c.gif)
 # Wordle Clone with Timer
-This is a clone of the popular game Wordle, with a time functionality added to it. The game was built using React and is designed to be a fun and educational tool for users of all ages. In this game, the user is presented with a random five-letter word and has five chances to guess the word. As soon as the game begins the clock starts ticking, adding an additional layer of difficulty.
+This is a clone of the popular game Wordle, with a time functionality added to it. The game was built using React and is designed to be a fun and educational tool for users of all ages. In this game, the user is presented with a random five-letter word and has five chances to guess the word. As soon as the game begins the clock starts ticking, adding an additional layer of difficulty. At the end of each game, players can copy their results as emoji squares.
 
 ### Getting Started
 To get started with this game, you can either download the source code and run it locally, or you can play the game online at [GitHub Pages](https://deborshi1998.github.io/wordle-clone/). If you choose to run the game locally, follow these steps:
@@ -11,7 +11,7 @@ To get started with this game, you can either download the source code and run i
 4. Run npm start to start the development server.
 5. Open a browser and navigate to http://localhost:3000/ to play the game.
 ## How to Play
-The rules of the game are simple. The user is presented with a random five-letter word and has five chances to guess the word. After each guess, the user is presented with a list of letters indicating which letters are correct, which letters are incorrect, and which letters are in the wrong position. The user can use this feedback to make an informed guess on their next attempt. The timer logs the time taken by the player.
+The rules of the game are simple. The user is presented with a random five-letter word and has five chances to guess the word. After each guess, the user is presented with a list of letters indicating which letters are correct, which letters are incorrect, and which letters are in the wrong position. The user can use this feedback to make an informed guess on their next attempt. The timer logs the time taken by the player. At the end of each game, players can copy their results as emoji squares.
 
 ## Technologies Used
 This game was built using React and the following libraries:
