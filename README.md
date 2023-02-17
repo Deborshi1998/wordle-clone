@@ -22,10 +22,10 @@ react-modal
 ## Contributing
 If you would like to contribute to this project, please follow these steps:
 
-Fork the repository.
-Create a new branch for your changes.
-Make your changes and commit them to the new branch.
-Push the branch to your forked repository.
-Create a pull request to merge your changes into the main repository.
+1. Fork the repository.
+2. Create a new branch for your changes.
+3. Make your changes and commit them to the new branch.
+4. Push the branch to your forked repository.
+5. Create a pull request to merge your changes into the main repository.
 ## License
 This project is licensed under the MIT License.
